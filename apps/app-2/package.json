@@ -1,9 +1,9 @@
 {
-	"name": "app-1",
+	"name": "app-2",
 	"type": "module",
 	"scripts": {
 		"build": "nuxt build",
-		"dev": "nuxt dev --port=3100",
+		"dev": "nuxt dev --port=3200",
 		"generate": "nuxt generate",
 		"preview": "nuxt preview",
 		"postinstall": "nuxt prepare"
