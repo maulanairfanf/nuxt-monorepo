@@ -1,7 +1,6 @@
 {
-	"name": "@nuxt-monorepo/app",
+	"name": "nuxt-app",
 	"private": true,
-	"type": "module",
 	"scripts": {
 		"build": "nuxt build",
 		"dev": "nuxt dev",
@@ -10,7 +9,6 @@
 		"postinstall": "nuxt prepare"
 	},
 	"dependencies": {
-		"@nuxt-monorepo/ui": "workspace:^",
 		"nuxt": "^3.12.4",
 		"vue": "latest"
 	}
