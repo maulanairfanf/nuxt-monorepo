@@ -17,6 +17,15 @@ importers:
         specifier: latest
         version: 3.4.36
 
+  apps/app-2:
+    dependencies:
+      nuxt:
+        specifier: ^3.12.4
+        version: 3.12.4(@parcel/watcher@2.4.1)(@types/node@22.1.0)(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.20.0)(terser@5.31.4)(vite@5.4.0(@types/node@22.1.0)(terser@5.31.4))
+      vue:
+        specifier: latest
+        version: 3.4.36
+
   packages:
 
     dependencies:

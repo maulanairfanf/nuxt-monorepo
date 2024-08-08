@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+	compatibilityDate: '2024-04-03',
 	modules: ['@monorepo/packages'],
-	compatibilityDate: '2024-08-08',
 	devtools: { enabled: true },
 })
